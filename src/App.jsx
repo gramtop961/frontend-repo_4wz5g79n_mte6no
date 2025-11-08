@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Showcase from './components/Showcase';
 import Process from './components/Process';
 import Contact from './components/Contact';
 
@@ -12,6 +13,7 @@ const App = () => {
       <main>
         <Hero />
         <Services />
+        <Showcase />
         <Process />
         <Contact />
       </main>
