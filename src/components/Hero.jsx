@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-[88vh] w-full pt-24 overflow-hidden bg-gradient-to-b from-white via-white to-blue-50">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/WCoEDSwacOpKBjaC/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/IKzHtP5ThSO83edK/scene.splinecode" style={{ width: '100%', height: '100%' }} />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/80 via-white/50 to-blue-50/90" />
       </div>
 

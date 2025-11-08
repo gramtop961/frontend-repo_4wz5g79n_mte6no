@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Showcase from './components/Showcase';
-import Process from './components/Process';
 import Contact from './components/Contact';
 
 const App = () => {
@@ -14,7 +13,6 @@ const App = () => {
         <Hero />
         <Services />
         <Showcase />
-        <Process />
         <Contact />
       </main>
       <footer className="border-t border-slate-200 py-8 bg-white">
@@ -22,7 +20,7 @@ const App = () => {
           <p className="text-sm text-slate-600">© {new Date().getFullYear()} VISUAL RISE TECHNOLOGIES. All rights reserved.</p>
           <div className="flex items-center gap-4 text-sm">
             <a href="#services" className="text-slate-600 hover:text-blue-700">Services</a>
-            <a href="#work" className="text-slate-600 hover:text-blue-700">Approach</a>
+            <a href="#showcase" className="text-slate-600 hover:text-blue-700">Showcase</a>
             <a href="#contact" className="text-slate-600 hover:text-blue-700">Contact</a>
           </div>
         </div>
